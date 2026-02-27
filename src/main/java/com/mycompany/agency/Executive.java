@@ -1,6 +1,6 @@
 package com.mycompany.agency;
 
-//Jahnelle to complete executive
+//Jahnelle to complete Executive
     // TODO 1: Make Executive a child of StaffEmploee
 public class Executive extends StaffEmployee
 {
