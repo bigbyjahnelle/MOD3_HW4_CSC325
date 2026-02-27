@@ -2,8 +2,8 @@ package com.mycompany.agency;
 
 
 //Adrianna Lambert  to complete StaffMember
-// TODO 1: Make this class work and public
- class StaffMember
+// TODO 1: Make this class work and public CHECK
+public abstract class StaffMember
 {
     protected String name;
     protected String address;
@@ -21,11 +21,11 @@ package com.mycompany.agency;
     }
 
     //-----------------------------------------------------------------
-    // TODO 2: Returns a string including the basic employee information.
+    // TODO 2: Returns a string including the basic employee information. CHECK
     //-----------------------------------------------------------------
     public String toString()
     {
-
+        return "Name: " + name + "\nAddress: " + address + "\nPhone: " + phone;
     }
 
     //-----------------------------------------------------------------
