@@ -4,7 +4,7 @@ package com.mycompany.agency;
 //Cobin Black to complete TempEmployee
     // TODO 1: Make TempEmployee a child of StaffEmployee
 
-public class TempEmploee extends StaffEmployee
+public class TempEmployee extends StaffEmployee
 {
     private int hoursWorked;
 
@@ -12,7 +12,7 @@ public class TempEmploee extends StaffEmployee
     //  Constructor: Sets up this hourly employee using the specified
     //  information.
     //-----------------------------------------------------------------
-    public TempEmploee(String eName, String eAddress, String ePhone,
+    public TempEmployee(String eName, String eAddress, String ePhone,
             String socSecNumber, double rate)
     {
         super(eName, eAddress, ePhone, socSecNumber, rate);
