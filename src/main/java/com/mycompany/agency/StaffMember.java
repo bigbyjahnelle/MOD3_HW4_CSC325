@@ -2,7 +2,7 @@ package com.mycompany.agency;
 
 
 //Adrianna Lambert  to complete StaffMember
-// TODO 1: Make this class work and public CHECK
+// TODO 1: Make this class work and public
 public abstract class StaffMember
 {
     protected String name;
@@ -21,7 +21,7 @@ public abstract class StaffMember
     }
 
     //-----------------------------------------------------------------
-    // TODO 2: Returns a string including the basic employee information. CHECK
+    // TODO 2: Returns a string including the basic employee information.
     //-----------------------------------------------------------------
     public String toString()
     {
