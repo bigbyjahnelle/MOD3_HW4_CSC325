@@ -1,7 +1,7 @@
 package com.mycompany.agency;
 
 //Jahnelle to complete Executive
-    // TODO 1: Make Executive a child of StaffEmploee
+    // TODO 1: Make Executive a child of StaffEmployee
 public class Executive extends StaffEmployee
 {
     private double bonus;
