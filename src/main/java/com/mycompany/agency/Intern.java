@@ -1,7 +1,7 @@
 package com.mycompany.agency;
 
 
-
+//Cobin Black to complete Intern
     // TODO 1: Make Intern a child of StaffEmploee
 
 public class Intern 

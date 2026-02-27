@@ -1,8 +1,7 @@
 package com.mycompany.agency;
 
-
+//Jayden to complete StaffEmployee
     // TODO 1: Make StaffEmployee a child of StaffMember
-
 public class StaffEmployee 
 {
     protected String socialSecurityNumber;

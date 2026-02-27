@@ -2,7 +2,7 @@ package com.mycompany.agency;
 
 
 
-
+// Jahnelle to complete Staff
 public class Staff
 {
     private StaffMember[] staffList;

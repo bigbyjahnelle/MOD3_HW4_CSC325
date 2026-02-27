@@ -1,7 +1,7 @@
 package com.mycompany.agency;
 
 
-
+//Adrianna Lambert  to complete StaffMember
 // TODO 1: Make this class work and public
  class StaffMember
 {
