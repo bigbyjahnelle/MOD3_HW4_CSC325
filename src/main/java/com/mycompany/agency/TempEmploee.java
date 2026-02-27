@@ -2,9 +2,9 @@ package com.mycompany.agency;
 
 
 //Cobin Black to complete TempEmployee
-    // TODO 1: Make TempEmploee a child of StaffEmploee
+    // TODO 1: Make TempEmployee a child of StaffEmployee
 
-public class TempEmploee 
+public class TempEmploee
 {
     private int hoursWorked;
 
