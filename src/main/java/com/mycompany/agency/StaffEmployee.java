@@ -2,7 +2,7 @@ package com.mycompany.agency;
 
 //Jayden to complete Staff Employee
     // TODO 1: Make StaffEmployee a child of StaffMember
-public class StaffEmployee 
+public class StaffEmployee extends StaffMember
 {
     protected String socialSecurityNumber;
     protected double payRate;
@@ -12,7 +12,7 @@ public class StaffEmployee
     //  information.
     //-----------------------------------------------------------------
     public StaffEmployee(String eName, String eAddress, String ePhone,
-            String socSecNumber, double rate)
+                         String socSecNumber, double rate)
     {
         super(eName, eAddress, ePhone);
 
@@ -21,12 +21,14 @@ public class StaffEmployee
     }
 
     //-----------------------------------------------------------------
-    // TODO 3: complete the implementation of toString to return information 
+    // TODO 3: complete the implementation of toString to return information
     //          about a staff employee as a string.
     //-----------------------------------------------------------------
     public String toString()
     {
-    
+        //Using super.toString() because there is already a toString in the StaffMember class
+        return super.toString() + "\n" + "Employee SSN: " + socialSecurityNumber
+                + "\n" +  "Employee Rate: " + payRate;
     }
 
     //-----------------------------------------------------------------
@@ -34,6 +36,6 @@ public class StaffEmployee
     //-----------------------------------------------------------------
     public double pay()
     {
-       
+        return payRate;
     }
 }
