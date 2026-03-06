@@ -44,7 +44,7 @@ public class Staff
                 20.00
         );
         staffList[4] = new Intern(
-                "Damani Straw",
+                "Damani Strawn",
                 "12 Heavenbound Street",
                 "789-8342"
         );
